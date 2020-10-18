@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+html, body {
+	overflow-x: hidden !important;
+ }
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 18px;
+	margin: 0 5px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu a{
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+
+.navbar ul li a:hover {
+	color: orange !important;
+}
+
+.navbar .dropdown-menu a:hover {
+	color: orange !important;
+	background-color: white;
+}
+
+/* Carousel */
+.carousel-inner{
+	width:100%;
+	max-height: 550px !important;
+ }
+
+.carousel .carousel-inner .carousel-item img {
+	background-size: cover;
+}
+
+.carousel-caption {
+	width:600px;
+   color:#fff;
+	text-align:center;
+	top:38%;
+	margin: auto;
+	bottom:auto;
+	-webkit-transform:translate(0, -50%);
+	-ms-transform:translate(0, -50%);
+	transform:translate(0, -50%);
+}
+
+.carousel-caption h1 {
+	text-shadow: 2px 2px 5px black;
+	font-size: 52px;
+	margin-bottom: 30px;
+	font-family: 'Courgette';
+}
+
+.carousel-caption p {
+	text-shadow: 2px 2px 5px black;
+	font-size: 24px;
+	font-family: 'Roboto', cursive;
+}
+/* End of Carousel */
+
+/* Sambutan */
+.sambutan h2{
+   text-align: center;
+   font-family: 'Courgette';
+}
+
+.sambutan p {
+	font-family: 'Roboto', cursive;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.sambutan hr {
+	width: 50%;
+	border: 1px solid rgb(207, 207, 207);
+}
+
+.sambutan img {
+   border-radius: 50%;
+}
+
+@media only screen and (max-width: 575px) {
+	.sambutan img {
+		height: 150px;
+	}
+ }
+/* End of Sambutan */
+
+/* Jurusan */
+.bg-cover {
+   background-image: url('/img/banner/cca3fa09b3548e40e61eb437390b8480.jpg');
+   background-position: center center;
+   /* height: 300px; */
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+.bg-cover img {
+	opacity: 0.9;
+	height: 100px;
+	width: 100px;
+}
+
+.bg-cover h2{
+	font-family: 'Courgette';
+	color: white ;
+	text-shadow: 2px 2px 1px black ;
+}
+
+.bg-cover hr {
+	width: 50%;
+	border: 1px solid white;
+	opacity: 0.4;
+}
+
+.bg-cover h5 {
+	padding-top: 15px;
+	/* font-family: 'Roboto'; */
+	color: white;
+	text-shadow: 2px 2px 1px black ;
+}
+/* End of Jurusan */
+
+/* Berita */
+.card {
+	margin: 0 auto; 
+	float: none; 
+	margin-bottom: 20px; 
+}
+
+.last-news h2 {
+	text-align: center;
+   font-family: 'Courgette';
+}
+
+.last-news hr {
+	width: 50%;
+	border: 1px solid rgb(235, 235, 235);
+}
+/* End of Berita */
+
+/* Blog */
+.blog h1 {
+	font-family: 'Playfair Display';
+}
+
+.blog img {
+	width: 100%;
+	/* height: 400px; */
+}
+
+.blog .konten  {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 30px;
+}
+/* End of Blog */
+
+/* Banner Area */
+.jumbotron.banner_area {
+	/* height: 150px; */
+	background-position: center bottom;
+   background-size: cover;
+   background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.banner_area h1{
+	font-family: 'Courgette';
+	top: 50%;
+	/* font-size: 32; */
+}
+/* End of Banner Are */
+
+
+/* Footer */
+.footer {
+	background-color: rgb(58, 58, 58);
+	color: white;
+	/* height: 280px; */
+	font-family: 'Roboto';
+	box-sizing: content-box;
+	/* padding-bottom: 0; */
+}
+
+.footer h5 {
+	background-color:  rgb(92, 92, 92);
+	padding: 10px;
+	border-left: 4px solid orange;
+}
+
+.footer ul a{
+	text-decoration: none;
+	color: rgb(167, 166, 166);
+}
+
+.footer ul a:hover{
+	color: orange;
+}
+
+.footer p {
+	color: rgb(167, 166, 166);
+}
+/* End of Footer */
+
+/* Pagination */
+.page-link {
+	color: orange;
+}
+
+.page-item.active .page-link {
+	background-color: orange;
+	border-color: orange;
+}
+/* End of Pagination */
+
+.btn-info {
+	color: #fff;
+	background-color: orange;
+	border-color: orange;
+}
+
+.btn-info:hover {
+	color: orange;
+	background-color: white;
+	border-color: orange;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: orange;
+}
