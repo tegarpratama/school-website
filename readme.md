@@ -1,5 +1,17 @@
 # School Website
 
-This project built with framework Codeigniter 3 and MySql
+To access admin page, add url /admin. Example http://localhost/school-website/admin
+email : admin@mail.com
+password: password
+
+Tools:
+- Codeiginiter 3
+- MySql
+- Bootstrap 4
+- Jquery
+- Datatables
+- Summernote
+- Sweetalert2
+- Codeigniter Ion Auth
 
 ![alt text](https://github.com/tegarpratama/school-website/blob/master/capture.png?raw=true) 

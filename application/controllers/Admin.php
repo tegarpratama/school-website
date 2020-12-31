@@ -22,7 +22,7 @@ class Admin extends CI_Controller {
 		$data['total_banner'] 	 = $this->banner->totalBanner();
 		$data['total_fasilitas'] = $this->fasilitas->totalFasilitas();
 		$data['total_berita'] 	 = $this->berita->countBerita();
-		$data['chart'] 			 = $this->admin->areaChart();
+		// $data['chart'] 			 = $this->admin->areaChart();
       $data['pageChart'] 		 = '_chart';
 
 		$this->load->view('back/layouts/main', $data);
