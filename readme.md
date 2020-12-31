@@ -1,8 +1,12 @@
 # School Website
 
 To access admin page, add url /admin. Example http://localhost/school-website/admin
-email : admin@mail.com
+
+email : admin@gmail.com
+
 password: password
+
+*Jika tidak bisa masuk admin, nanti saya akan cek. Mohon ditunggu ya
 
 Tools:
 - Codeiginiter 3
