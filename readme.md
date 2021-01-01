@@ -1,12 +1,15 @@
 # School Website
 
+***If you can't enter the admin page, please download or clone it again, because I've updated the sql file***
+
 To access admin page, add url /admin. Example http://localhost/school-website/admin
 
-email : admin@gmail.com
+Admin Account :
+
+email : admin@mail.com
 
 password: password
 
-*Jika tidak bisa masuk admin, nanti saya akan cek. Mohon ditunggu ya
 
 Tools:
 - Codeiginiter 3
